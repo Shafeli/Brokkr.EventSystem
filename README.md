@@ -5,6 +5,19 @@ Handlers and events are sorted independently, allowing precise control over exec
 
 ---
 
+## Features
+- Murmur3 hashing
+
+- Priority‑sorted dispatch
+
+- Deterministic handler ordering
+
+- Component‑based payloads
+
+- Zero‑dependency
+
+- Engine‑ready
+
 ## 🚀 How to Use
 
 ### Adding a New Event
@@ -162,8 +175,3 @@ int main()
 - Payloads behave like **components**, ensuring clean, safe data flow.  
 - Handlers are sorted automatically — higher priority executes first.  
 
----
-
-## 🔗 Repository
-
-[**GitHub → Brokkr.EventSystem**](https://github.com/Shafeli/Brokkr.EventSystem)
